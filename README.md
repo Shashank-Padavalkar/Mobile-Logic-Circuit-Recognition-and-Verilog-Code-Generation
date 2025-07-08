@@ -1,6 +1,6 @@
-# LogiCam – Mobile Logic Circuit Recognition and Verilog Code Generation
+# Mobile Logic Circuit Recognition and Verilog Code Generation
 
-**LogiCam** is a mobile-based tool designed to interpret digital logic circuit diagrams captured via a phone camera. The system leverages on-device deep learning to identify standard logic gates, map their interconnections, derive the corresponding Boolean expression, and generate valid Verilog code. Built for Android devices, LogiCam runs entirely offline, offering real-time circuit analysis without external dependencies.
+We built a mobile-based tool designed to interpret digital logic circuit diagrams captured via a phone camera. The system leverages on-device deep learning to identify standard logic gates, map their interconnections, derive the corresponding Boolean expression, and generate valid Verilog code. Built for Android devices, LogiCam runs entirely offline, offering real-time circuit analysis without external dependencies.
 
 ---
 
@@ -45,19 +45,24 @@ The Boolean expression is translated into synthesizable Verilog code, making the
 
 ## System Block Diagram
 
-![System Framework](images/system_architecture.png)
+![System Framework](system_architecture.png)
 
 ---
 
 ## Demonstration and Results
 
 ### A. Test Input Circuit  
-![Test Circuit](images/test_circuit.png)
+![Test Circuit](test_circuit.png)
 
 ### B. Gate Detection (Android Application)  
-![Android Detection](images/gate_detection_android.png)
+![Android Detection](gate_detection_android.png)
 
 ### C. Variable Assignment and Connectivity  
-![Logic Parsing](images/logic_parsing.png)
+![Logic Parsing](logic_parsing.png)
 
 ### D. Boolean Expression (Sample Output)  
+(NOT (C AND D)) OR (A OR B)
+
+### E. Verilog Code Output
+![Verlog](Verilog.png)
+ 
