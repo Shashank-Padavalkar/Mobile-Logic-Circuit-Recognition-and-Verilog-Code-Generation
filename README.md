@@ -70,7 +70,7 @@ The Boolean expression is translated into synthesizable Verilog code, making the
 
 ## Teammates
 - Sambhram Doddamane
-- Anirudh Navalgund 
+- [Anirudh Navalgund](https://github.com/Anirudh-Navalgund)
 - E Sujaya
 
  
